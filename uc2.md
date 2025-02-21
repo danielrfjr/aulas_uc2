@@ -36,7 +36,30 @@
 3. class => você cria um "apelido" na tag do elemento e esse "apelido" pode ser utilizado quantas necessárias, inclusive em outras tags diferentes.
 
 ## SISTEMA DE CORES
+
 1. nome da cor => Especifica o valor da cor através do nome em inglês.
 2. hexadecimal => Especifica o valor da cor através de uma sequência alfa-numérica.
 3. rgb => Especifica a cor através da intensidade do red[vermelho], green[verde] e blue[azul].
 4. rgba => São os mesmos valores do rgb, porém com o valor do alpha[opacidade].
+
+# AULA 04
+1. <img> => Tag responsável por inserir uma imagem interna ou externa.
+- src -> é onde é inserido o caminho da imagem;
+- alt -> é o texto alternativo que será exibido caso a imagem "quebre" e por questões de acessibilidade.
+ex: <img src="caminho_da_imagem" alt="Descrição da imagem">
+
+2. Listas
+<ul></ul> -> Informa que existirá itens e a posição desses itens não importa. Lista não ordenada.
+<ol></ol> -> Informa que existirá itens e a posição desses itens importa. Lista ordenada.
+<li></li> -> É cada item da lista.
+
+3. Tag de link
+<a></a> -> É utilizada para gerar um texto clicável. Link.
+- href ->  É uma propriedade onde você irá informar qual o caminho que o link irá enviar o usuário.
+ex: <a href ="caminho_do_link">Sobre</a>
+
+## CSS
+1. `font-family: Arial, Helvetica, sans-serif;` -> Propriedade que altera o tipo de fonte utilizado no elemento.
+2. `padding` -> é o espaçamento interno de um conteúdo até a borda.
+3. `margin` -> é o espaçamento externo da borda em relação a outro elemento. 
+4. `border` -> é a borda do elemento
