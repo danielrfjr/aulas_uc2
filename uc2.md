@@ -63,3 +63,24 @@ ex: <a href ="caminho_do_link">Sobre</a>
 2. `padding` -> é o espaçamento interno de um conteúdo até a borda.
 3. `margin` -> é o espaçamento externo da borda em relação a outro elemento. 
 4. `border` -> é a borda do elemento
+
+# AULA 05
+1. POSICIONAMENTO (GRID)
+`GRID` -> É uma das tecnologias mais utilizadas nos sistemas web e sites. A lógica utilizada é separar a tela em colunas e linhas que podem ser de diferentes tamanhos.
+
+2. UTILIZANDO O GRID 
+Utilizamos a propriedade display com o valor de grid.
+Ex: display: grid;
+
+3. PRINCIPAIS PROPRIEDADES DO GRID
+grid-template-columns: -> Propriedade utilizada para informar ao css quantas colunas e quais os tamanhos você irá usar.
+`grid-template-rows:` -> Propriedade utilizada para informar quantas linhas serão geradas e o tamanho delas.
+* Métricas utilizadas
+%, e px -> evitar
+fr -> Fração referente a página toda.
+auto -> tamanho de forma automática.
+
+`grid-row:` -> Define em qual linha o elemento irá se posicionar.
+`grid-column:` -> Define em qual coluna o elemento irá se posicionar.
+
+
